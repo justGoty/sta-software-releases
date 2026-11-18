@@ -1,17 +1,14 @@
-# Мониторинг СТА
+# Мониторинг СТА 1.3
 
 Готовое приложение для Windows: мониторинг газоанализаторов СТА по USB–RS-485, тревоги, карта объекта, архив, отчёты и диагностика.
 
-## Скачать программу
+## Скачать для Windows 10/11 x64
 
-[Открыть страницу выпусков и обновлений](https://github.com/justGoty/sta-software-releases/releases)
+В версии **1.3** на плане объекта видны приборы и их показания. Мастер подключения помогает найти прибор и настроить его за четыре шага.
 
-### Доступные версии
+[Скачать для Windows (ZIP)](https://github.com/justGoty/sta-software-releases/releases/download/v1.3/STA-software-v1.3-Windows-x64.zip) · [Руководство (PDF)](https://github.com/justGoty/sta-software-releases/releases/download/v1.3/RE_Monitoring_STA_v1.3.pdf)
 
-- [v1.2 — стабильная версия](https://github.com/justGoty/sta-software-releases/releases/tag/v1.2).
-- [v1.3-rc2 — предварительная версия](https://github.com/justGoty/sta-software-releases/releases/tag/v1.3-rc2): обновлённый мониторинг с планом объекта и мастер подключения. Новый EXE пока не проверен с физическим газоанализатором; сначала проверьте его на отдельной копии.
-
-[Скачать комплект v1.3-rc2 для Windows x64](https://github.com/justGoty/sta-software-releases/releases/download/v1.3-rc2/STA-software-v1.3-rc2-Windows-x64.zip) · [Руководство PDF](https://github.com/justGoty/sta-software-releases/releases/download/v1.3-rc2/RE_Monitoring_STA_v1.3-rc2.pdf)
+[Страница выпуска 1.3](https://github.com/justGoty/sta-software-releases/releases/tag/v1.3) · [Все выпуски](https://github.com/justGoty/sta-software-releases/releases)
 
 В каждом комплекте: единый EXE для станции и сетевого рабочего места, руководство по эксплуатации PDF, краткая инструкция на русском, ссылка на обновления, лицензии сторонних компонентов и контрольные суммы SHA-256. Python устанавливать не нужно. Исходный код и данные объектов здесь не публикуются.
 
@@ -30,10 +27,12 @@
 
 ПО не заменяет приборную сигнализацию и правила безопасности объекта. Для технической поддержки используйте контакты вашего поставщика; не публикуйте пароли, ключи, конфигурацию объекта и необезличенные журналы в открытом репозитории.
 
-## Интерфейс v1.3-rc2
+## Интерфейс программы
 
 Снимки учебного примера, не данные действующего объекта.
 
-![План объекта, выбранный газоанализатор и график](images/v1.3-rc2/monitoring.png)
+![План объекта, выбранный газоанализатор и график](images/v1.3/monitoring.png)
 
-![Добавление газоанализатора: подключение и поиск устройств](images/v1.3-rc2/sensor_dialog_connection.png)
+![Добавление газоанализатора: подключение и поиск устройств](images/v1.3/sensor_dialog_connection.png)
+
+[Карточки газоанализаторов](images/v1.3/monitoring_cards.png) · [Настройка шкалы 4–20 мА](images/v1.3/current_measurement_top.png)
